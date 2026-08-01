@@ -1,0 +1,95 @@
+{
+  "appsPromote": {
+    "enabled": true,
+    "items": [
+      {
+        "name": "Minecraft",
+        "packageName": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe",
+        "icon": "https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP=w240-h480-rw",
+        "preview": "https://play-lh.googleusercontent.com/yATzGkRymqHnF7-8-6yT1mYk7zU-2j8w_g3L5E0cQ6Y0L2h8yE0kG_Vj8M4Z_n0k9Q=w2560-h1440-rw",
+        "shortDescription": "Minecraft \u2014 the legendary sandbox game where you can build anything you can imagine.",
+        "screenShot": [
+          "https://play-lh.googleusercontent.com/zVpA3Q8zJtA4p8Q8c_A1QxQ_D_Y1_0T_p-ZqU3gK-m8V3zU9mF-hR2mN3tGjM8X_hQ=w2560-h1440-rw",
+          "https://play-lh.googleusercontent.com/G_zM9tQ8zJtA4p8Q8c_A1QxQ_D_Y1_0T_p-ZqU3gK-m8V3zU9mF-hR2mN3tGjM8X_hQ=w2560-h1440-rw",
+          "https://play-lh.googleusercontent.com/X_zM9tQ8zJtA4p8Q8c_A1QxQ_D_Y1_0T_p-ZqU3gK-m8V3zU9mF-hR2mN3tGjM8X_hQ=w2560-h1440-rw"
+        ]
+      },
+      {
+        "name": "Duolingo: Language Lessons",
+        "packageName": "https://play.google.com/store/apps/details?id=com.duolingo",
+        "icon": "https://play-lh.googleusercontent.com/560-H8NVZRHk00O3u2-nNoOfFS0TEVDL-WsY4k5Q2W1_0jG_M_wB_hR2mN3tGjM8X_hQ=w240-h480-rw",
+        "preview": "https://play-lh.googleusercontent.com/Q_zM9tQ8zJtA4p8Q8c_A1QxQ_D_Y1_0T_p-ZqU3gK-m8V3zU9mF-hR2mN3tGjM8X_hQ=w2560-h1440-rw",
+        "shortDescription": "Learn Spanish, French, German, Italian, English and more languages for free.",
+        "screenShot": [
+          "https://play-lh.googleusercontent.com/A_zM9tQ8zJtA4p8Q8c_A1QxQ_D_Y1_0T_p-ZqU3gK-m8V3zU9mF-hR2mN3tGjM8X_hQ=w2560-h1440-rw",
+          "https://play-lh.googleusercontent.com/B_zM9tQ8zJtA4p8Q8c_A1QxQ_D_Y1_0T_p-ZqU3gK-m8V3zU9mF-hR2mN3tGjM8X_hQ=w2560-h1440-rw"
+        ]
+      }
+    ]
+  },
+  "youtubePromote": {
+    "enabled": true,
+    "items": [
+      {
+        "title": "Android Studio Tutorial for Beginners",
+        "icon": "https://yt3.ggpht.com/ytc/AIdro_kX_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1=s68-c-k-c0x00ffffff-no-rj",
+        "preview": "https://i.ytimg.com/vi/EOfCEhWq8sg/maxresdefault.jpg",
+        "previewSmall": "https://i.ytimg.com/vi/EOfCEhWq8sg/mqdefault.jpg",
+        "watch": "https://youtube.com/watch?v=EOfCEhWq8sg",
+        "channel": "https://youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw",
+        "description": "Learn how to build your first Android app using Android Studio and Kotlin."
+      },
+      {
+        "title": "Jetpack Compose Crash Course",
+        "icon": "https://yt3.ggpht.com/ytc/AIdro_kX_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1=s68-c-k-c0x00ffffff-no-rj",
+        "preview": "https://i.ytimg.com/vi/WURsqyZNxY8/maxresdefault.jpg",
+        "previewSmall": "https://i.ytimg.com/vi/WURsqyZNxY8/mqdefault.jpg",
+        "watch": "https://youtube.com/watch?v=WURsqyZNxY8",
+        "channel": "https://youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw",
+        "description": "Master Jetpack Compose with this comprehensive crash course for modern Android development."
+      }
+    ]
+  },
+  "webPromote": {
+    "enabled": true,
+    "bannerType": [
+      {
+        "title": "test Banner ",
+        "contentView": "https://beye-mohammed.github.io/WeJsons/AdsPromote/468X60.gif",
+        "openUrl": "https://beye-mohammed.github.io"
+      },
+      {
+        "title": "Monetag Zone Banner",
+        "contentView": "https://beye-mohammed.github.io/WeJsons/AdsPromote/banner-300x250.html"
+      }
+    ],
+    "interstitialType": [
+      {
+         "title": "test Interstitial",
+        "contentView": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2ExMmg4d3gxbHRoMG83Mm93cW1veHJ5dTZmZXFsOTVpdHNwMzN6byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WsApKdvW48ew8/giphy.gif",
+        "description": "Full-page ad network embed",
+        "contentUrl": "https://beye-mohammed.github.io"
+      },
+      {
+        "title": "Monetag Full-Page Interstitial",
+        "contentView": "https://beye-mohammed.github.io/WeJsons/AdsPromote/test.html",
+        "description": "Full-page ad network embed",
+        "contentUrl": "https://beye-mohammed.github.io/WeJsons/AdsPromote/test.html"
+      }
+    ],
+    "nativeType": [
+      {
+        "title": "Adsterra Native Banner",
+        "contentView": "<iframe src='https://beye-mohammed.github.io/WeJsons/AdsPromote/Native-Banner_1.html' width='100%' height='100%' frameborder='0' scrolling='no' style='border:none; overflow:hidden;'></iframe>",
+        "contentUrl": "https://beye-mohammed.github.io/WeJsons/AdsPromote/Native-Banner_1.html",
+        "previewSmall": "https://play-lh.googleusercontent.com/Q_zM9tQ8zJtA4p8Q8c_A1QxQ_D_Y1_0T_p-ZqU3gK-m8V3zU9mF-hR2mN3tGjM8X_hQ=w2560-h1440-rw"
+      },
+      {
+        "title": "Monetag Native Ad Unit",
+        "contentView": "<iframe src='https://beye-mohammed.github.io/WeJsons/AdsPromote/Native-Banner_1.html' width='100%' height='100%' frameborder='0' scrolling='no' style='border:none; overflow:hidden;'></iframe>",
+        "contentUrl": "https://beye-mohammed.github.io/WeJsons/AdsPromote/Native-Banner_1.html",
+        "previewSmall": "https://play-lh.googleusercontent.com/Q_zM9tQ8zJtA4p8Q8c_A1QxQ_D_Y1_0T_p-ZqU3gK-m8V3zU9mF-hR2mN3tGjM8X_hQ=w2560-h1440-rw"
+      }
+    ]
+  }
+}
