@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>عرض صور Portrait - حلقة تلقائية</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #1a1a1a;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gallery {
+            width: 100%;
+            height: 100vh;
+            overflow-y: scroll;
+            scroll-snap-type: y mandatory;
+            scroll-behavior: smooth;
+            scrollbar-width: none;      /* Firefox */
+            -ms-overflow-style: none;   /* IE */
+        }
+        .gallery::-webkit-scrollbar {
+            display: none;              /* Chrome/Safari */
+        }
+
+        .slide {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start;
+            padding: 20px;
+            background: #1a1a1a;
+        }
+
+        .slide img {
+            height: 85vh;               /* تملأ معظم الشاشة مع احترام النسبة */
+            width: auto;
+            max-width: 90%;
+            object-fit: contain;
+            border-radius: 28px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+            background: #2a2a2a;
+            border: 2px solid rgba(255, 255, 255, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        @media (max-width: 600px) {
+            .slide img {
+                height: 70vh;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="gallery" id="gallery">
+        <div class="slide">
+            <img src="https://picsum.photos/seed/portrait1/800/1200" alt="صورة 1" />
+        </div>
+        <div class="slide">
+            <img src="https://picsum.photos/seed/portrait2/800/1200" alt="صورة 2" />
+        </div>
+        <div class="slide">
+            <img src="https://picsum.photos/seed/portrait3/800/1200" alt="صورة 3" />
+        </div>
+        <div class="slide">
+            <img src="https://picsum.photos/seed/portrait4/800/1200" alt="صورة 4" />
+        </div>
+        <div class="slide">
+            <img src="https://picsum.photos/seed/portrait5/800/1200" alt="صورة 5" />
+        </div>
+    </div>
+
+    <script>
+        (function() {
+            const gallery = document.getElementById('gallery');
+            const slides = gallery.querySelectorAll('.slide');
+            const totalSlides = slides.length;
+            let currentIndex = 0;
+
+            const AUTO_PLAY_DELAY = 2000; // 2 ثانية
+
+            function goToSlide(index) {
+                // ضمان الحلقة (loop)
+                if (index < 0) index = totalSlides - 1;
+                if (index >= totalSlides) index = 0;
+
+                currentIndex = index;
+                const targetSlide = slides[currentIndex];
+                if (targetSlide) {
+                    targetSlide.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            }
+
+            function nextSlide() {
+                goToSlide(currentIndex + 1);
+            }
+
+            // بدء التشغيل التلقائي
+            let autoPlayInterval = setInterval(nextSlide, AUTO_PLAY_DELAY);
+
+            // إيقاف المؤقت عندما تكون الصفحة غير مرئية (تحسين الأداء)
+            document.addEventListener('visibilitychange', function() {
+                if (document.hidden) {
+                    clearInterval(autoPlayInterval);
+                } else {
+                    autoPlayInterval = setInterval(nextSlide, AUTO_PLAY_DELAY);
+                }
+            });
+
+            // التأكد من عرض الصورة الأولى عند التحميل
+            setTimeout(() => {
+                goToSlide(0);
+            }, 100);
+        })();
+    </script>
+
+</body>
+</html>
