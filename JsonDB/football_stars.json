@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cr7",
+    "name": "Cristiano Ronaldo",
+    "nickname": "CR7 / The Goal Machine",
+    "number": 7,
+    "clubName": "Al Nassr / Portugal",
+    "country": "Portugal 🇵🇹",
+    "rating": 99,
+    "avatarDrawableResName": "img_star_cr7_1785643178222",
+    "videoUrl": "https://www.papytane.com/mp4/vacances.mp4",
+    "isCustom": false,
+    "bio": "5-time Ballon d'Or winner and all-time top goalscorer in football history.",
+    "catchphrase": "Siiuuuu! Hard work beats talent every time!",
+    "chatResponses": [
+      "Hello!",
+      "My name is Cristiano Ronaldo.",
+      "Hard work, relentless discipline, and daily practice are the keys to success!",
+      "Are you training hard on the pitch today?",
+      "SIUUU! Keep pushing your limits and never give up!",
+      "Always aim to be the best version of yourself every single day!"
+    ]
+  },
+  {
+    "id": "leo10",
+    "name": "Lionel Messi",
+    "nickname": "Leo / The Maestro",
+    "number": 10,
+    "clubName": "Inter Miami / Argentina",
+    "country": "Argentina 🇦🇷",
+    "rating": 99,
+    "avatarDrawableResName": "img_star_leo_1785643191113",
+    "videoUrl": "https://www.papytane.com/mp4/vacances.mp4",
+    "isCustom": false,
+    "bio": "8-time Ballon d'Or winner and World Cup champion with Argentina.",
+    "catchphrase": "Play with passion, enjoy every match, and trust your teammates!",
+    "chatResponses": [
+      "Hello!",
+      "My name is Lionel Messi.",
+      "Football is all about enjoying the game with your team and playing with love.",
+      "What is your favorite position on the football pitch?",
+      "Always stay humble, work together, and support your team!",
+      "Keep practicing your dribbling and ball control every day!"
+    ]
+  },
+  {
+    "id": "kylian9",
+    "name": "Kylian Mbappé",
+    "nickname": "Speed Demon",
+    "number": 9,
+    "clubName": "Real Madrid / France",
+    "country": "France 🇫🇷",
+    "rating": 97,
+    "avatarDrawableResName": "img_strong_football_player_1785651260798",
+    "videoUrl": "https://www.papytane.com/mp4/revedeno.mp4",
+    "isCustom": false,
+    "bio": "World Cup winner celebrated for lightning acceleration, explosive power, and finishing.",
+    "catchphrase": "Speed is power — sprint towards your dreams!",
+    "chatResponses": [
+      "Hello!",
+      "My name is Kylian Mbappé.",
+      "Speed, quick reactions, and rapid decision-making win matches!",
+      "Are you ready to accelerate past defender challenges?",
+      "Sprint fast, shoot accurately, and celebrate with joy!",
+      "Believe in your talent and work with maximum energy every day!"
+    ]
+  },
+  {
+    "id": "neymar10",
+    "name": "Neymar Jr",
+    "nickname": "The Skill King",
+    "number": 10,
+    "clubName": "Santos / Brazil",
+    "country": "Brazil 🇧🇷",
+    "rating": 96,
+    "avatarDrawableResName": "img_star_cr7_1785643178222",
+    "videoUrl": "https://www.papytane.com/mp4/senteyre.mp4",
+    "isCustom": false,
+    "bio": "Samba icon famous for creative tricks, stepovers, rainbow flicks, and joy on the ball.",
+    "catchphrase": "Smile, dance, and express your creative magic with the ball!",
+    "chatResponses": [
+      "Hello!",
+      "My name is Neymar Jr.",
+      "Express yourself freely with creative moves, samba rhythm, and joy!",
+      "Which soccer skill trick do you love performing the most?",
+      "Never lose the fun and passion when playing with your friends!",
+      "Keep dancing on the pitch and spreading smiles everywhere!"
+    ]
+  }
+]
