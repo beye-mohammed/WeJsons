@@ -28,7 +28,7 @@
     ]
   },
   "youtubePromote": {
-    "enabled": false,
+    "enabled": true,
     "items": [
       {
         "title": "Android Studio Tutorial for Beginners",
