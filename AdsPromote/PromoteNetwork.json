@@ -96,7 +96,14 @@
         "contentView": "https://beye-mohammed.github.io/WeJsons/AdsPromote/test.html",
         "description": "Full-page ad network embed",
         "contentUrl": "https://beye-mohammed.github.io/WeJsons/AdsPromote/test.html"
+      },
+      {
+        "title": "Banner Small Test",
+        "contentView": "https://google.com",
+        "description": "Banner Small test ",
+        "contentUrl": "https://beye-mohammed.github.io/WeJsons/AdsPromote/banner_testing.html"
       }
+      
     ],
     "nativeType": [
       {
@@ -112,9 +119,9 @@
         "previewSmall": "https://play-lh.googleusercontent.com/Q_zM9tQ8zJtA4p8Q8c_A1QxQ_D_Y1_0T_p-ZqU3gK-m8V3zU9mF-hR2mN3tGjM8X_hQ=w2560-h1440-rw"
       },
       {
-        "title": "Banner Testing HTML",
-        "contentView": "https://beye-mohammed.github.io/WeJsons/AdsPromote/banner_testing.html",
-        "contentUrl": "https://beye-mohammed.github.io",
+        "title": "Banner Big Testing HTML",
+        "contentView": "https://google.com",
+        "contentUrl": "https://beye-mohammed.github.io/WeJsons/AdsPromote/banner_testing.html",
         "previewSmall": "https://play-lh.googleusercontent.com/Y--a1Sf1dkwUPj3uh5xshW1Jz13QgoG5ErCLrpAnOrlR4KKGDN7jbwY0BNy6BaiN5EJJyCmyUQA0swQ1tfp6=w832-h470-rw"
       }
     ]
