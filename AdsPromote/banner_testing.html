@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تجربة بنرات GIF متجاوبة</title>
+    <style>
+        /* إعدادات عامة للصفحة */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* حاوية البنر الأساسية */
+        .banner-wrapper {
+            margin: 0 auto 30px auto;
+            width: 100%;
+            padding: 10px;
+        }
+
+        /* السر في التجاوب: جعل الصورة تأخذ أقصى عرض متاح ولا تتجاوز الحجم الأصلي للبنر */
+        .banner-wrapper img {
+            max-width: 100%; /* تمنع الصورة من الخروج عن حدود الشاشة */
+            height: auto;    /* تحافظ على أبعاد الصورة متناسقة (Aspect Ratio) */
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px; /* حواف دائرية (اختياري) */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف للبنر (اختياري) */
+        }
+
+        /* تحديد أقصى عرض لكل نوع من البنرات بناءً على المقاسات القياسية */
+        .leaderboard img {
+            max-width: 728px; /* مقاس البنر العريض القياسي */
+        }
+
+        .large-leaderboard img {
+            max-width: 970px; /* مقاس البنر العريض الكبير */
+        }
+
+        .mobile-banner img {
+            max-width: 320px; /* مقاس بنر الهواتف الذكية */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>معرض بنرات GIF المتجاوبة</h1>
+    <p>قم بتصغير وتكبير نافذة المتصفح لترى كيف تتكيف البنرات مع حجم الشاشة.</p>
+
+    <!-- بنر عريض قياسي (728x90) -->
+    <div class="banner-wrapper leaderboard">
+        <!-- استبدل الرابط أدناه برابط أو مسار صورة الـ GIF الخاصة بك -->
+        <img src="https://via.placeholder.com/728x90.gif?text=Leaderboard+GIF+(728x90)" alt="بنر عريض قياسي">
+    </div>
+
+    <!-- بنر عريض كبير (970x250) -->
+    <div class="banner-wrapper large-leaderboard">
+        <!-- استبدل الرابط أدناه برابط أو مسار صورة الـ GIF الخاصة بك -->
+        <img src="https://via.placeholder.com/970x250.gif?text=Large+Leaderboard+GIF+(970x250)" alt="بنر عريض كبير">
+    </div>
+
+    <!-- بنر مخصص للهواتف (320x50) -->
+    <div class="banner-wrapper mobile-banner">
+        <!-- استبدل الرابط أدناه برابط أو مسار صورة الـ GIF الخاصة بك -->
+        <img src="https://via.placeholder.com/320x50.gif?text=Mobile+GIF+(320x50)" alt="بنر هاتف محمول">
+    </div>
+
+</body>
+</html>
