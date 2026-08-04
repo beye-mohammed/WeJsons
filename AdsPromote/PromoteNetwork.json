@@ -14,6 +14,18 @@
           "https://play-lh.googleusercontent.com/_7QkSZSzxD9C_YoFB8kMwW8JYVaLyq5_DYnuG91qf726BE3Gnpq9zlSAZdR2CA3yxgjkjZ4jMzpWXmtQwD3ae2A=w1052-h592-rw"
         ]
       },
+       {
+        "name": "Clash Royale",
+        "packageName": "com.supercell.clashroyale",
+        "icon": "https://play-lh.googleusercontent.com/rIvZQ_H3hfmexC8vurmLczLtMNBFtxCEdmb2NwkSPz2ZuJJ5nRPD0HbSJ7YTyFGdADQ=s512",
+        "preview": "https://play-lh.googleusercontent.com/3aKKWjPyFtqhRY3Uocx0s4gQ96-0mbJBQOE2WUlxK-gIZmkfXSGWAiPCjcN8YHypnls=w720-h310",
+        "shortDescription": "Play Now !",
+        "screenShot": [
+          "https://play-lh.googleusercontent.com/1uEDjifScv4ZnztIEqLbulwZS2TAPb98m2RE-k9CPNK2cPHPblbQmm-PG6rK31NU9cc=w720-h310",
+          "https://play-lh.googleusercontent.com/1El08973eev4zEfs1doK1__4iV6hoB0WPF1IjEL1Ul2hFUZDTuKqwjgfT_Wjbw0_Hg=w720-h310",
+          "https://play-lh.googleusercontent.com/XH57qG2waM-VwmCGBd-V8G6MwP78195G4yPJ7USyO1P5yTjFcbBSnyAMYVL2KOLC_A=w720-h310"
+        ]
+      },
       {
         "name": "Qisas Alanbiya",
         "packageName": "https://play.google.com/store/apps/details?id=com.beyeapps.qisasalanbiya",
@@ -47,6 +59,15 @@
         "watch": "https://www.youtube.com/@aljazeeraenglish",
         "channel": "https://youtu.be/CVqdts8PZiw",
         "description": "#AlJazeeraEnglish, we focus on people and events that affect people's lives..."
+      },
+      {
+        "title": "Nastya and a collection of kind children's songs",
+        "icon": "https://play-lh.googleusercontent.com/g-_7dcMAkIdLtC_VPUGXmJcqDeHvQuK8JGosZtJoULqSa8iNp_UV-nNvNqcpeH9Mqdmck6naqGTUbuB5FkaK=s128-rw",
+        "preview": "https://play-lh.googleusercontent.com/LSX6X2pEjjKc5YwZhyVhKKw-sau73CcM7kQ2v6hfn9nxfRvTAAyMJYnMdfP_4OPkLYSQQbTa5oLNGhvCQ2kRew=w832-h470-rw",
+        "previewSmall": "https://play-lh.googleusercontent.com/LSX6X2pEjjKc5YwZhyVhKKw-sau73CcM7kQ2v6hfn9nxfRvTAAyMJYnMdfP_4OPkLYSQQbTa5oLNGhvCQ2kRew=w832-h470-rw",
+        "watch":  "https://www.youtube.com/watch?v=TkqKXmtT_xI",
+       "channel": "channel/UCJplp5SjeGSdVdwsfb9Q7lQ",
+        "description": "Do you Love PROMOTE channel ? \n lets watch videos Now !"
       }
     ]
   },
