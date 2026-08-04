@@ -85,8 +85,8 @@
       },
       {
         "title": "Banner Small Test",
-        "contentView": "google.com",
-        "openUrl": "https://beye-mohammed.github.io/WeJsons/AdsPromote/banner_testing.html"
+        "contentView": "https://beye-mohammed.github.io/WeJsons/AdsPromote/banner_testing.html",
+        "openUrl": "google.com"
       }
     ],
     "interstitialType": [
