@@ -40,7 +40,7 @@
     ]
   },
   "youtubePromote": {
-    "enabled": true,
+    "enabled": false,
     "items": [
       {
         "title": "Like Nastya Kids",
