@@ -5,6 +5,6 @@
     },
     {
         "app_packname": "com.beyeapps.streambert",
-        "show_ads": true
+        "show_ads": false
     }
 ]
