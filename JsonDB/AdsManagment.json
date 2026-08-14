@@ -1,7 +1,7 @@
 [
     {
         "app_packname": "com.beyeapps.cubeshootingmerge",
-        "show_ads": false
+        "show_ads": true
     },
     {
         "app_packname": "com.beyeapps.streambert",
