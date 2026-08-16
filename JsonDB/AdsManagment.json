@@ -4,7 +4,23 @@
         "show_ads": false
     },
     {
-        "app_packname": "com.beyeapps.streambert",
-        "show_ads": true
+        "app_packname": "com.bytedin.streamplus",
+        "show_ads": false
+    },
+    {
+        "app_packname": "com.bytedin.aaaa",
+        "show_ads": false
+    },
+    {
+        "app_packname": "com.bytedin.cccc",
+        "show_ads": false
+    },
+    {
+        "app_packname": "com.bytedin.bbbb",
+        "show_ads": false
+    },
+    {
+        "app_packname": "com.bytedin.dddd",
+        "show_ads": false
     }
 ]
