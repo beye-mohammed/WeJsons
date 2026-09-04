@@ -1,7 +1,7 @@
 [
     {
         "app_packname": "com.beyeapps.cubeshootingmerge",
-        "show_ads": false
+        "show_ads": true
     },
     {
         "app_packname": "com.bytedin.streamplus",
@@ -12,8 +12,8 @@
         "show_ads": true
     },
     {
-        "app_packname": "com.bytedin.cccc",
-        "show_ads": false
+        "app_packname": "com.beyeapps.tinytowers",
+        "show_ads": true
     },
     {
         "app_packname": "com.bytedin.bbbb",
