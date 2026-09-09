@@ -17,7 +17,7 @@
     },
     {
         "app_packname": "com.beyeapps.supernova",
-        "show_ads": false
+        "show_ads": true
     },
     {
         "app_packname": "com.bytedin.dddd",
