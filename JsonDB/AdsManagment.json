@@ -20,7 +20,39 @@
         "show_ads": true
     },
     {
+        "app_packname": "com.beyeapps.rollingball",
+        "show_ads": true
+    },
+    {
         "app_packname": "com.bytedin.dddd",
         "show_ads": false
+    },
+    {
+        "app_packname": "com.beyeapps.test11",
+        "show_ads": true
+    },
+    {
+        "app_packname": "com.beyeapps.vvvvvv",
+        "show_ads": true
+    },
+    {
+        "app_packname": "com.beyeapps.vvvvvvvvvvv",
+        "show_ads": true
+    },
+    {
+        "app_packname": "com.beyeapps.vvvvvvvvvvvvvvv",
+        "show_ads": true
+    },
+    {
+        "app_packname": "com.beyeapps.vvvvvvvvvvvvvvvvvv",
+        "show_ads": true
+    },
+    {
+        "app_packname": "com.beyeapps.vvvvvvvvvvvvvvvvvvvvvv",
+        "show_ads": true
+    },
+    {
+        "app_packname": "com.beyeapps.vvvvvvvvvvvvvvvvvvvvvvvvvvv",
+        "show_ads": true
     }
 ]
