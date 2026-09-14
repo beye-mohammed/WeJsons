@@ -21,7 +21,7 @@
     },
     {
         "app_packname": "com.beyeapps.rollingball",
-        "show_ads": true
+        "show_ads": false
     },
     {
         "app_packname": "com.bytedin.dddd",
