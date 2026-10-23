@@ -13,7 +13,7 @@
     },
     {
         "app_packname": "com.beyeapps.tinytowers",
-        "show_ads": true
+        "show_ads": false
     },
     {
         "app_packname": "com.beyeapps.supernova",
