@@ -17,7 +17,7 @@
     },
     {
         "app_packname": "com.beyeapps.supernova",
-        "show_ads": true
+        "show_ads": false
     },
     {
         "app_packname": "com.beyeapps.rollingball",
@@ -29,7 +29,7 @@
     },
     {
         "app_packname": "com.beyeapps.slopey",
-        "show_ads": true
+        "show_ads": false
     },
     {
         "app_packname": "com.beyeapps.vvvvvv",
