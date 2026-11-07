@@ -37,10 +37,10 @@
     },
     {
         "app_packname": "com.beyeapps.magicaldiary",
-        "show_ads": true
+        "show_ads": false
     },
     {
-        "app_packname": "com.beyeapps.vvvvvvvvvvvvvvv",
+        "app_packname": "com.beyeapps.bluemushroom",
         "show_ads": true
     },
     {
