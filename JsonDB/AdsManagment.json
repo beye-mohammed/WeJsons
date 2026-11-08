@@ -41,7 +41,7 @@
     },
     {
         "app_packname": "com.beyeapps.bluemushroom",
-        "show_ads": true
+        "show_ads": false
     },
     {
         "app_packname": "com.beyeapps.vvvvvvvvvvvvvvvvvv",
