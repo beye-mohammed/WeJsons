@@ -41,7 +41,7 @@
     },
     {
         "app_packname": "com.beyeapps.bluemushroom",
-        "show_ads": false
+        "show_ads": true
     },
     {
         "app_packname": "com.beyeapps.whatsdeletedmsg",
