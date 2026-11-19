@@ -52,7 +52,31 @@
         "show_ads": true
     },
     {
-        "app_packname": "com.beyeapps.vvvvvvvvvvvvvvvvvvvvvvvvvvv",
+        "app_packname": "com.beyeapps.pdfcreator",
+        "show_ads": true
+    },
+    {
+        "app_packname": "com.beyeapps.vvvvvvvvvvvvvvvv",
+        "show_ads": true
+    },
+    {
+        "app_packname": "com.beyeapps.vvvvvvvvvvv",
+        "show_ads": true
+    },
+    {
+        "app_packname": "com.beyeapps.vvvvvvv",
+        "show_ads": true
+    },
+    {
+        "app_packname": "com.beyeapps.vvvv",
+        "show_ads": true
+    },
+    {
+        "app_packname": "com.beyeapps.vvv",
+        "show_ads": true
+    },
+    {
+        "app_packname": "com.beyeapps.vvv",
         "show_ads": true
     }
 ]
