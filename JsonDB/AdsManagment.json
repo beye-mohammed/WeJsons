@@ -33,7 +33,7 @@
     },
     {
         "app_packname": "com.beyeapps.playmixo",
-        "show_ads": false
+        "show_ads": true
     },
     {
         "app_packname": "com.beyeapps.magicaldiary",
@@ -53,7 +53,7 @@
     },
     {
         "app_packname": "com.beyeapps.weLovepdf",
-        "show_ads": true
+        "show_ads": false
     },
     {
         "app_packname": "com.beyeapps.vvvvvvvvvvvvvvvv",
