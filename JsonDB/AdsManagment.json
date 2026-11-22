@@ -49,7 +49,7 @@
     },
     {
         "app_packname": "com.beyeapps.keepyournotes",
-        "show_ads": true
+        "show_ads": false
     },
     {
         "app_packname": "com.beyeapps.weLovepdf",
